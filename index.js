@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000; // Render PORT env var ko use karega
 // Middleware
 app.use(
   cors({
-    origin: ["https://your-app-name.netlify.app", "http://localhost:5000"], // Replace with your Netlify URL
+    origin: ["https://visionary-palmier-01269c.netlify.app/", "http://localhost:5000"], // Replace with your Netlify URL
     methods: ["GET", "POST"],
   })
 );
